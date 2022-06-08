@@ -4,17 +4,17 @@
   <meta charset="utf-8">
   
   
-  <title>html | Hexo</title>
+  <title>语义化标签 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="语义化标签">
+  <meta name="description" content="块元素和行内元素:在页面中独占一行的元素称为块元素（block element）。在页面中不会独占一行的元素称为行内元素（inline element）。 注意：块元素（block element）：在网页中一般通过块元素对页面进行布局。行内元素（inline element）：行内元素主要用来包裹文字。一般情况下，在块元素中可以放行内元素，而在行内元素中不可以放块元素。&lt;p&gt;&lt;">
 <meta property="og:type" content="article">
-<meta property="og:title" content="html">
+<meta property="og:title" content="语义化标签">
 <meta property="og:url" content="http://example.com/2022/06/08/html/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="语义化标签">
+<meta property="og:description" content="块元素和行内元素:在页面中独占一行的元素称为块元素（block element）。在页面中不会独占一行的元素称为行内元素（inline element）。 注意：块元素（block element）：在网页中一般通过块元素对页面进行布局。行内元素（inline element）：行内元素主要用来包裹文字。一般情况下，在块元素中可以放行内元素，而在行内元素中不可以放块元素。&lt;p&gt;&lt;">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2022-06-08T05:27:47.000Z">
-<meta property="article:modified_time" content="2022-06-08T05:37:17.259Z">
+<meta property="article:modified_time" content="2022-06-08T06:13:51.865Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -87,7 +87,7 @@
         
   
     <h1 class="p-name article-title" itemprop="headline name">
-      html
+      语义化标签
     </h1>
   
 
@@ -95,11 +95,30 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <h1 id="语义化标签"><a href="#语义化标签" class="headerlink" title="语义化标签"></a>语义化标签</h1>
+        <p><strong>块元素和行内元素:</strong><br>在页面中独占一行的元素称为块元素（block element）。<br>在页面中不会独占一行的元素称为行内元素（inline element）。</p>
+<p><strong>注意：</strong><br>块元素（block element）：在网页中一般通过块元素对页面进行布局。<br>行内元素（inline element）：行内元素主要用来包裹文字。<br>一般情况下，在块元素中可以放行内元素，而在行内元素中不可以放块元素。<br><code>&lt;p&gt;&lt;/p&gt;</code>元素中不能放任何块元素。</p>
+<hr>
+<p><strong><code>&lt;h1&gt;&lt;/h1&gt;</code>标题标签：</strong><br>h1-h6一共有六级标题。<br>从h1-h6重要性依次递减，h1最重要，h6最不重要。<br>h1在网页中的重要性仅次于title标签，一般情况下一个页面只会有一个h1。<br>一般情况下标题标签只会使用到h1-h3。</p>
+<p><strong><code>&lt;p&gt;&lt;/p&gt;</code>标签：</strong><br>表示页面中的一个段落。</p>
+<p><strong><code>&lt;hgroup&gt;&lt;/hgroup&gt;</code>标签：</strong><br>hgroup标签用来为标题分组，可以将一组相关的标题同时放入到hgroup。</p>
+<p><strong><code>&lt;em&gt;&lt;/em&gt;</code>标签：</strong><br>em标签用于表示语音语调的一个加重。</p>
+<p><strong><code>&lt;strong&gt;&lt;/strong&gt;</code>标签：</strong><br>strong表示对重要内容的强调。 </p>
+<p><strong><code>&lt;blockquote&gt;&lt;/blockquote&gt;</code>标签：</strong><br>表示一个长引用，属于块元素，独占一行。</p>
+<p><strong><code>&lt;q&gt;&lt;/q&gt;</code>标签：</strong><br>表示一个段引用，属于行内元素。</p>
+<p><strong><code>&lt;header&gt;&lt;/header&gt;</code>标签：</strong><br>表示网页的头部或网页中某一区域的头部（一个页面中可以有多个）。</p>
+<p><strong><code>&lt;main&gt;&lt;/main&gt;</code>标签：</strong><br>表示网页的主体部分（一个页面中只能有一个）。</p>
+<p><strong><code>&lt;footer&gt;&lt;/footer&gt;</code>标签：</strong><br>表示网页的底部或网页中某一区域的底部（一个页面中可以有多个）。</p>
+<p><strong><code>&lt;nav&gt;&lt;/nav&gt;</code>标签：</strong><br>表示网页中的导航。</p>
+<p><strong><code>&lt;aside&gt;&lt;/aside&gt;</code>标签：</strong><br>表示网页的侧边栏。</p>
+<p><strong><code>&lt;article &gt;&lt;/article&gt;</code>标签：</strong><br>表示文章。</p>
+<p><strong><code>&lt;section &gt;&lt;/section&gt;</code>标签：</strong><br>表示一个独立的区块。</p>
+<p><strong><code>&lt;div &gt;&lt;/div&gt;</code>标签：</strong><br>div没有语义，用来表示一个区块。</p>
+<p><strong><code>&lt;span &gt;&lt;/span&gt;</code>标签：</strong><br>没有语义，属于行内元素，用来选中网页中的文字。</p>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/06/08/html/" data-id="cl455n4xt000028tn52z5dxym" data-title="html" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/06/08/html/" data-id="cl455n4xt000028tn52z5dxym" data-title="语义化标签" class="article-share-link">Share</a>
       
       
       
@@ -107,16 +126,6 @@
   </div>
   
     
-<nav id="article-nav">
-  
-  
-    <a href="/2022/06/08/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">Hello World</div>
-    </a>
-  
-</nav>
-
   
 </article>
 
@@ -150,11 +159,7 @@
       <ul>
         
           <li>
-            <a href="/2022/06/08/html/">html</a>
-          </li>
-        
-          <li>
-            <a href="/2022/06/08/hello-world/">Hello World</a>
+            <a href="/2022/06/08/html/">语义化标签</a>
           </li>
         
       </ul>
